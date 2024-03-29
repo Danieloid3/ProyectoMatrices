@@ -1,6 +1,8 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 import forma1.Forma1;
@@ -16,7 +18,7 @@ public class Main {
         int opc;
         Forma2 forma2 = new Forma2();
         Scanner scanner = new Scanner(System.in);
-
+        List<Tripleta> tripletas = new ArrayList<>();
         do {
             System.out.println("----Menu de opciones----");
             System.out.println("1. Tripleta");
@@ -41,7 +43,8 @@ public class Main {
                         case 1:
                             int matriz[][];
                             int datos = 0;
-                            matriz = LeerArchivo();
+                            int h = 1;
+                            matriz = LeerArchivo(h);
                             for (int i = 0; i < matriz.length; i++) {
                                 for (int j = 0; j < matriz[i].length; j++) {
                                     System.out.print(matriz[i][j]);
@@ -54,6 +57,11 @@ public class Main {
                             }
                             Tripleta tripleta = new Tripleta(datos, matriz.length, matriz[0].length);
                             tripleta.crearTripletas(matriz);
+                            tripletas.add(tripleta);
+                            h++;
+                            if (h > 10){
+                                h = 1;
+                            }
                             break;
                         case 2:
                             //Sumar filas y columnas
@@ -87,7 +95,8 @@ public class Main {
                         case 1:
                             int matriz[][];
                             int datos = 0;
-                            matriz = LeerArchivo();
+                            int h = 1;
+                            matriz = LeerArchivo(h);
                             for (int i = 0; i < matriz.length; i++) {
                                 for (int j = 0; j < matriz[i].length; j++) {
                                     //System.out.print(matriz[i][j]);
@@ -154,8 +163,8 @@ public class Main {
         scanner.close();
     }
 
-    public static int[][] LeerArchivo() {
-        String archivo = "C:\\Users\\123\\IdeaProjects\\Matrices\\Matrices\\src\\Matriz1.txt";
+    public static int[][] LeerArchivo(int h) {
+        String archivo = "src\\Matriz" + h + ".txt";
         String linea;
         int[][] matriz;
         int i=0;
