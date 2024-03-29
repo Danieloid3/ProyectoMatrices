@@ -18,6 +18,7 @@ public class Main {
         int opc;
         Forma2 forma2 = new Forma2();
         Scanner scanner = new Scanner(System.in);
+        int h = 1;
         List<Tripleta> tripletas = new ArrayList<>();
         do {
             System.out.println("----Menu de opciones----");
@@ -43,7 +44,7 @@ public class Main {
                         case 1:
                             int matriz[][];
                             int datos = 0;
-                            int h = 1;
+
                             matriz = LeerArchivo(h);
                             for (int i = 0; i < matriz.length; i++) {
                                 for (int j = 0; j < matriz[i].length; j++) {
@@ -95,7 +96,7 @@ public class Main {
                         case 1:
                             int matriz[][];
                             int datos = 0;
-                            int h = 1;
+
                             matriz = LeerArchivo(h);
                             for (int i = 0; i < matriz.length; i++) {
                                 for (int j = 0; j < matriz[i].length; j++) {
@@ -164,7 +165,7 @@ public class Main {
     }
 
     public static int[][] LeerArchivo(int h) {
-        String archivo = "src\\Matriz" + h + ".txt";
+        String archivo = "C:\\Users\\123\\IdeaProjects\\Matrices\\Matrices\\src\\Matriz" + h + ".txt";
         String linea;
         int[][] matriz;
         int i=0;
