@@ -96,7 +96,6 @@ public class Main {
                         case 1:
                             int matriz[][];
                             int datos = 0;
-
                             matriz = LeerArchivo(h);
                             for (int i = 0; i < matriz.length; i++) {
                                 for (int j = 0; j < matriz[i].length; j++) {
@@ -110,6 +109,10 @@ public class Main {
                             }
                             Forma1 forma1 = new Forma1(datos, matriz.length, matriz[0].length);
                             forma1.Construir(matriz);
+                            h++;
+                            if (h > 10){
+                                h = 1;
+                            }
                             break;
                         case 2:
                             break;
@@ -165,7 +168,7 @@ public class Main {
     }
 
     public static int[][] LeerArchivo(int h) {
-        String archivo = "C:\\Users\\123\\IdeaProjects\\Matrices\\Matrices\\src\\Matriz" + h + ".txt";
+        String archivo = "src\\Matriz" + h + ".txt";
         String linea;
         int[][] matriz;
         int i=0;

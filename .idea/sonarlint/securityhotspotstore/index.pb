@@ -1,14 +1,8 @@
 
 =
 src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
-A
-src/Tripleta.java,9\0\90919b2000ea39adcd331c696d7ae561fa71a56b
 J
 src/Tripleta/Tripleta.java,9\2\92181275310d02ec160f7bc7fae409ade218d965
-?
-src/Formas.java,b\f\bf9ab2ed95d1758e0acbfb5f40f59a16a880730b
-F
-src/Formas/Forma1.java,a\c\ac87963abc6a21f14abcbbb54b97eeafa90c6954
 F
 src/Forma1/Forma1.java,e\5\e5bcc3b3e1d3b740646c62408b5caa23f5cb7710
 F
@@ -27,3 +21,7 @@ F
 src/forma2/Forma2.java,c\b\cb263fe30c5d484f5d4cb2c88b2cbfb4e669e2b7
 D
 src/forma2/Nodo.java,4\3\435bad1b9b892cb00e6e680f597974cecd951d0b
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
