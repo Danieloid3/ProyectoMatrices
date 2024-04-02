@@ -1,5 +1,6 @@
 package tripleta;
 
+
 public class Tripleta {
     // Atributos
     private int[][] matriz;
@@ -43,47 +44,134 @@ public class Tripleta {
 
             }
         }
-        for (int i = 0; i < this.matriz.length; i++) {
-            for (int j = 0; j < this.matriz[i].length; j++) {
-                System.out.print(this.matriz[i][j] + " ");
+
+    }
+    //Sumar los datos de cada fila y los datos de cada columna de una tripleta
+    public void sumarFilasColumnas() {
+        int sumaFila = 0;
+        int sumaColumna = 0;
+        for (int i = 0; i < matriz[0][0]; i++) {
+            for (int j = 0; j < matriz[0][1]; j++) {
+                sumaFila += buscarDato(i, j);
+                sumaColumna += buscarDato(j, i);
             }
-            System.out.println();
+            System.out.println("La suma de la fila " + i + " es: " + sumaFila);
+            System.out.println("La suma de la columna " + i + " es: " + sumaColumna);
+            sumaFila = 0;
+            sumaColumna = 0;
         }
 
+    }
+    //Multiplicar dos tripletas
+public void multiplicarTripletas(Tripleta tripleta1, Tripleta tripleta2) {
+        Tripleta tripletaMultiplicacion = new Tripleta(tripleta1.getMatriz(0,2) + tripleta2.getMatriz(0,2), tripleta1.getMatriz(0,0), tripleta1.getMatriz(0,1));
+        int k = 1;
+        for (int i = 0; i < tripletaMultiplicacion.getMatriz(0,0); i++) {
+            for (int j = 0; j < tripletaMultiplicacion.getMatriz(0, 1); j++) {
+                int multiplicacion = tripleta1.buscarDato(i, j) * tripleta2.buscarDato(i, j);
+                if (multiplicacion != 0) {
+                    tripletaMultiplicacion.setMatriz(i, k, 0);
+                    tripletaMultiplicacion.setMatriz(j, k, 1);
+                    tripletaMultiplicacion.setMatriz(multiplicacion, k, 2);
+                    k++;
+                    multiplicacion = 0;
+                }
+            }
+        }tripletaMultiplicacion.mostrarTripleta();
     }
 
 
 
 
+    //Sumar dos tripletas de la lista tripletas
+    public void sumarTripletas(Tripleta tripleta1, Tripleta tripleta2) {
+        Tripleta tripletaSuma = new Tripleta(tripleta1.getMatriz(0,2) + tripleta2.getMatriz(0,2), tripleta1.getMatriz(0,0), tripleta1.getMatriz(0,1));
+        int k = 1;
+        for (int i = 0; i < tripletaSuma.getMatriz(0,0); i++){
+            for (int j = 0; j < tripletaSuma.getMatriz(0,1); j++) {
+                int suma = tripleta1.buscarDato(i, j) + tripleta2.buscarDato(i, j);
+                if (suma != 0){
+                    tripletaSuma.setMatriz(i, k, 0);
+                    tripletaSuma.setMatriz(j, k, 1);
+                    tripletaSuma.setMatriz(suma, k, 2);
+                    k++;
+                    suma = 0;
+                }
+            }
 
-    //Sumar tripletas
-    public void sumarTripletas(Tripleta tripleta) {
-        int[][] matriz1 = this.getMatriz();
-        int[][] matriz2 = tripleta.getMatriz();
-        int[][] matriz3 = new int[matriz1[0][2] + matriz2[0][2] + 1][3];
-        matriz3[0][0] = matriz1[0][0];
-        matriz3[0][1] = matriz1[0][1];
-        int contador = 1;
-        for (int i = 1; i < matriz1.length; i++) {
-            matriz3[contador][0] = matriz1[i][0];
-            matriz3[contador][1] = matriz1[i][1];
-            matriz3[contador][2] = matriz1[i][2];
-            contador++;
+
         }
-        for (int i = 1; i < matriz2.length; i++) {
-            matriz3[contador][0] = matriz2[i][0];
-            matriz3[contador][1] = matriz2[i][1];
-            matriz3[contador][2] = matriz2[i][2];
-            contador++;
+        tripletaSuma.setMatriz(k-1,0,2);
+        tripletaSuma.mostrarTripleta();
+    }
+    //Buscar un dato en una la tripleta
+
+    public int buscarDato(int fila, int columna) {
+        for (int i = 1; i < matriz.length; i++) {
+            if (matriz[i][0] == fila && matriz[i][1] == columna) {
+                return matriz[i][2];
+            }
         }
-        matriz3[0][2] = contador - 1;
-        for (int i = 0; i < matriz3.length; i++) {
-            for (int j = 0; j < matriz3[i].length; j++) {
-                System.out.print(matriz3[i][j] + " ");
+        return 0;
+    }
+
+    //mostrar tripleta
+    public void mostrarTripleta() {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (0 == matriz[i][2]){
+                    break;
+                }
+                System.out.print(matriz[i][j] + " ");
+
             }
             System.out.println();
+
         }
     }
+    //Eliminar un dato de la tripleta
+    public Tripleta eliminarDato(int fila, int columna) {
+        for (int i = 1; i < matriz.length; i++) {
+            if (matriz[i][0] == fila && matriz[i][1] == columna) {
+                matriz[i][2] = 0;
+            }
+        }Tripleta nuevaTripleta = new Tripleta(matriz[0][2] - 1, matriz[0][0], matriz[0][1]);
+        int k = 1;
+        for (int i = 0; i < matriz[0][0]; i++) {
+            for (int j = 0; j < matriz[0][1]; j++) {
+                if (buscarDato(i, j) != 0) {
+                    nuevaTripleta.setMatriz(i, k, 0);
+                    nuevaTripleta.setMatriz(j, k, 1);
+                    nuevaTripleta.setMatriz(buscarDato(i, j), k, 2);
+                    k++;
+                }
+            }
+
+        }nuevaTripleta.mostrarTripleta();
+        return nuevaTripleta;
+    }
+    //ingresar un dato en la tripleta
+    public Tripleta ingresarDato(int fila, int columna, int dato) {
+        matriz[0][2] += 1;
+        matriz[matriz[0][2]][0] = fila;
+        matriz[matriz[0][2]][1] = columna;
+        matriz[matriz[0][2]][2] = dato;
+        Tripleta nuevaTripleta = new Tripleta(matriz[0][2], matriz[0][0], matriz[0][1]);
+        int k = 1;
+        for (int i = 0; i < matriz[0][0]; i++) {
+            for (int j = 0; j < matriz[0][1]; j++) {
+                if (buscarDato(i, j) != 0) {
+                    nuevaTripleta.setMatriz(i, k, 0);
+                    nuevaTripleta.setMatriz(j, k, 1);
+                    nuevaTripleta.setMatriz(buscarDato(i, j), k, 2);
+                    k++;
+                }
+            }
+
+        }nuevaTripleta.mostrarTripleta();
+        return nuevaTripleta;
+    }
+
 
 
 }
