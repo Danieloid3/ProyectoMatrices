@@ -205,7 +205,6 @@ public class Forma1 {
 
 
     public void multiplicar(Forma1 forma1) {
-        int mayor = 0;
         Forma1 multiplicacion = new Forma1();
         multiplicacion.Paso1(getPunta().getFila(), forma1.getPunta().getColumna());
         Nodo P = multiplicacion.getPunta().getLiga();

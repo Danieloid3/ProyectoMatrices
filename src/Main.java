@@ -267,7 +267,7 @@ public class Main {
                     }
 
                 }
-                System.out.println(linea);
+                //System.out.println(linea);
                 i ++;
             }
             matriz = new int[i][j+1];
