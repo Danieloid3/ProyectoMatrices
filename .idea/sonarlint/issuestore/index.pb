@@ -30,6 +30,4 @@ S
 ?
 src/Matriz2.txt,1\5\154e122e179e50261cf85418bc4692d64d788196
 ?
-src/Matriz7.txt,1\d\1d3594c5aeb1add272e1842be86ae851f2cbae35
-?
 src/Matriz3.txt,d\b\dbac93a4734e519c0b9da4868dd64d12fd6f20b7

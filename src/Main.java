@@ -71,21 +71,46 @@ public class Main {
                             if (h > 10){
                                 h = 1;
                             }
+                            //mostrar array
+                            for (int i = 0; i < tripletas.size(); i++) {
+                                for (int j = 0; j < tripletas.get(i).getMatriz().length; j++) {
+                                    for (int k = 0; k < tripletas.get(i).getMatriz()[j].length; k++) {
+                                        System.out.print(tripletas.get(i).getMatriz()[j][k] + " ");
+                                    }
+                                    System.out.println();
+                                }
+                            }
                             break;
                         case 2:
                             //Sumar filas y columnas
+                            tripletas.get(0).sumarFilasColumnas();
+
                             break;
                         case 3:
                             //Multiplicar
+                            tripletas.get(0).multiplicarTripletas(tripletas.get(0), tripletas.get(1));
                             break;
                         case 4:
-                            //Suma de tripletas
+                            //Suma de tripletas de la lista tripletas
+                            tripletas.get(0).sumarTripletas(tripletas.get(0), tripletas.get(1));
                             break;
                         case 5:
                             //Eliminar dato
+                            System.out.println("Ingrese la fila que desea eliminar: ");
+                            int fila = scanner.nextInt();
+                            System.out.println("Ingrese la columna que desea eliminar: ");
+                            int columna = scanner.nextInt();
+                            tripletas.set(0, tripletas.get(0).eliminarDato( fila, columna));
                             break;
                         case 6:
                             //Ingresar dato
+                            System.out.println("Ingrese la fila donde desea ingresar el dato: ");
+                            int filaIngresar = scanner.nextInt();
+                            System.out.println("Ingrese la columna donde desea ingresar el dato: ");
+                            int columnaIngresar = scanner.nextInt();
+                            System.out.println("Ingrese el dato: ");
+                            int dato = scanner.nextInt();
+                            tripletas.set(0, tripletas.get(0).ingresarDato(filaIngresar, columnaIngresar, dato));
                             break;
                     }
                     break;
@@ -181,12 +206,15 @@ public class Main {
                             break;
                         case 2:
                             //Sumar filas y columnas
+
                             break;
                         case 3:
                             //Multiplicar
                             break;
                         case 4:
-                            //Suma de tripletas
+
+
+
                             break;
                         case 5:
                             System.out.println("Ingrese la fila: ");
