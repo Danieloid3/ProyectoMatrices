@@ -16,15 +16,23 @@ public class Main {
     public static void main(String[] args) {
 
         int opc;
-        Forma2 forma2 = new Forma2();
+
         Scanner scanner = new Scanner(System.in);
         int h = 1;
+        int fila=0;
+        int columna=0;
+        int dato=0;
+
         List<Tripleta> tripletas = new ArrayList<>();
+        List<Forma1> formas1 = new ArrayList<>();
+        List<Forma2> formas2 = new ArrayList<>();
+
         do {
             System.out.println("----Menu de opciones----");
             System.out.println("1. Tripleta");
             System.out.println("2. Forma 1");
             System.out.println("3. Forma 2");
+            System.out.println("4. Salir");
             System.out.println("Ingrese una opcion: ");
             opc = scanner.nextInt();
 
@@ -86,7 +94,7 @@ public class Main {
                     System.out.println("1. Crear Forma 1");
                     System.out.println("2. Sumar filas y columnas");
                     System.out.println("3. Multiplicar");
-                    System.out.println("4. Suma de tripletas");
+                    System.out.println("4. Suma de formas 1");
                     System.out.println("5. Eliminar dato");
                     System.out.println("6. Ingresar dato");
                     System.out.println("7. Salir");
@@ -95,38 +103,55 @@ public class Main {
                     switch (opc3) {
                         case 1:
                             int matriz[][];
-                            int datos = 0;
                             matriz = LeerArchivo(h);
-                            for (int i = 0; i < matriz.length; i++) {
-                                for (int j = 0; j < matriz[i].length; j++) {
-                                    //System.out.print(matriz[i][j]);
-                                    //System.out.print(" ");
-                                    if (matriz[i][j] != 0) {
-                                        datos++;
-                                    }
-                                }
-                                System.out.println(" ");
-                            }
-                            Forma1 forma1 = new Forma1(datos, matriz.length, matriz[0].length);
+                            Forma1 forma1 = new Forma1();
                             forma1.Construir(matriz);
+                            formas1.add(forma1);
                             h++;
                             if (h > 10){
                                 h = 1;
                             }
                             break;
                         case 2:
+                            formas1.get(0).sumaFilasColumnasF();
                             break;
                         case 3:
-                            //Multiplicar
+                            if(formas1.get(0).getPunta().getColumna() != formas1.get(1).getPunta().getFila()) {
+                                System.out.println("No se puede multiplicar");
+                            }else{
+                                formas1.get(0).multiplicar(formas1.get(1));
+                            }
                             break;
                         case 4:
-                            //Suma de tripletas
+                            if (formas1.get(0).getPunta().getFila() == formas1.get(1).getPunta().getFila() && formas1.get(0).getPunta().getColumna() == formas1.get(1).getPunta().getColumna()){
+                                formas1.get(0).Sumar(formas1.get(1));
+                            }
+                            else {
+                                System.out.println("No se pueden sumar");
+                            }
+
                             break;
                         case 5:
-                            //Eliminar dato
+                            System.out.println("Ingrese la fila: ");
+                            fila = scanner.nextInt();
+                            System.out.println("Ingrese la columna: ");
+                            columna = scanner.nextInt();
+                            System.out.println("Ingrese el dato a eliminar: ");
+                            dato = scanner.nextInt();
+                            formas1.get(1).Eliminar(fila, columna, dato);
                             break;
                         case 6:
-                            //Ingresar dato
+                            System.out.println("Ingrese la fila: ");
+                            fila = scanner.nextInt();
+                            System.out.println("Ingrese la columna: ");
+                            columna = scanner.nextInt();
+                            System.out.println("Ingrese el dato a insertar: ");
+                            dato = scanner.nextInt();
+                            if(fila > formas1.get(0).getPunta().getFila()){
+                                System.out.println("Está fuera del rango de la matriz");
+                            }else {
+                                formas1.get(0).Insertar(fila, columna, dato);
+                            }
                             break;
                     }
                     break;
@@ -143,7 +168,16 @@ public class Main {
                     int opc4 = scanner.nextInt();
                     switch (opc4) {
                         case 1:
-                            //Crear forma 2
+                            int matriz[][];
+
+                            matriz = LeerArchivo(h);
+                            Forma2 forma2 = new Forma2();
+                            forma2.Construir(matriz);
+                            formas2.add(forma2);
+                            h++;
+                            if (h > 10){
+                                h = 1;
+                            }
                             break;
                         case 2:
                             //Sumar filas y columnas
@@ -155,15 +189,26 @@ public class Main {
                             //Suma de tripletas
                             break;
                         case 5:
-                            //Eliminar dato
-                            break;
+                            System.out.println("Ingrese la fila: ");
+                            fila = scanner.nextInt();
+                            System.out.println("Ingrese la columna: ");
+                            columna = scanner.nextInt();
+                            System.out.println("Ingrese el dato a eliminar: ");
+                            dato = scanner.nextInt();
+                            //forma2.Eliminar(fila, columna, dato);
+                             break;
                         case 6:
                             //Ingresar dato
                             break;
                     }
                     break;
+
+                    case 4:
+                    System.out.println("Saliendo...");
+
+
             }
-        } while (opc != 7);
+        } while (opc != 8);
         scanner.close();
     }
 

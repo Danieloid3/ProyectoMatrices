@@ -25,3 +25,11 @@ D
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+?
+src/Matriz1.txt,c\a\ca2dc917517cd54a0fe10a31865a05285fd17243
+?
+src/Matriz2.txt,1\5\154e122e179e50261cf85418bc4692d64d788196
+?
+src/Matriz7.txt,1\d\1d3594c5aeb1add272e1842be86ae851f2cbae35
+?
+src/Matriz3.txt,d\b\dbac93a4734e519c0b9da4868dd64d12fd6f20b7

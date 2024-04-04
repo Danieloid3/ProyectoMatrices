@@ -1,93 +1,53 @@
 
-‘
-java:S1192("IDefine a constant instead of duplicating this literal "7. Salir" 3 times.(—‡èÈÿÿÿÿÿ8º²óìç1J$4be3eabe-8ad9-4ec4-8e2b-f079d41fc193
-™
-java:S1192&"QDefine a constant instead of duplicating this literal "5. Eliminar dato" 3 times.(û§…ÿÿÿÿÿ8º²óìç1J$d0622395-8e34-4fbb-bb45-4f8125124fe4
-˜
-java:S1192"UDefine a constant instead of duplicating this literal "Ingrese una opcion: " 4 times.(ûÏÕ8»²óìç1J$06d119ce-f8dd-4f8d-90d2-44ae3579b79f
-”
-java:S1192'"QDefine a constant instead of duplicating this literal "6. Ingresar dato" 3 times.(çĞòİ8»²óìç1J$2a00ff30-2e8f-4ae4-b7a1-7f84f8f69100
-¢
-java:S1192#"ZDefine a constant instead of duplicating this literal "2. Sumar filas y columnas" 3 times.(ŸÑ˜Óşÿÿÿÿ8»²óìç1J$4a3eeb2a-038f-4365-9df1-e1824fc68f69
-’
-java:S1192$"ODefine a constant instead of duplicating this literal "3. Multiplicar" 3 times.(ÿòÓ˜8»²óìç1J$78030509-6d35-4f86-91e9-46975d2c0483
-˜
-java:S1192%"UDefine a constant instead of duplicating this literal "4. Suma de tripletas" 3 times.(õŸñƒ8»²óìç1J$423b66c6-0b2b-4052-af03-149db487f4e3
-e
-java:S1643º"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8¼²óìç1J$28923d92-55fb-43fd-9f5f-0db81490e76c
-e
-java:S1643Õ"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8¼²óìç1J$057f8b5c-05ad-4066-8668-c3bec4d00104
-]
-java:S1220""Move this file to a named package.8øŞñìç1J$b4984dd6-ac49-4013-8ea2-e70f7bf4830a
-
-java:S2095µ"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(´ÓñÊ8Şµóìç1J$7487a343-9cdc-4a33-a0a0-c5f997ac5d54
-
-java:S2095Ï"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Âõ–8Şµóìç1J$4e7d5ded-a546-41ba-891d-64b45e2ec343
-•
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.(Çµí‘8âµóìç1J$d6981bdf-518a-4223-9673-4d7514ff1dc5
-}
-java:S1854":Remove this useless assignment to local variable "forma2".(¨¦–”8ãµóìç1J$8e9eb8cb-a7b2-49ba-8dd9-b17be7be775a
-m	java:S106"+Replace this use of System.out by a logger.(¼¦ñî8éµóìç1J$b99723a6-23c9-4393-b398-05f01639f37a
-m	java:S106"+Replace this use of System.out by a logger.(…‰»‹8éµóìç1J$4a0b9f11-2cdc-4d5d-8a01-3099317fd784
-r	java:S106"+Replace this use of System.out by a logger.(‘íÛ£ÿÿÿÿÿ8éµóìç1J$42bfeb8c-9691-4b14-8fbc-52e0c79b2b77
-m	java:S106"+Replace this use of System.out by a logger.(İÍàÌ8¸ôõáè1J$105a17a6-6aff-4680-bf16-c1f68a28d118
-m	java:S106"+Replace this use of System.out by a logger.(ûÏÕ8ñµóìç1J$a9cc01a4-6d39-4f37-99eb-d7bd7f85db4a
-i	java:S131""Add a default case to this switch.(Ëë¡Ûúÿÿÿÿ8ëµóìç1J$39d3e3db-6eee-47da-af9e-0da8bdfffef1
-m	java:S106!"+Replace this use of System.out by a logger.(‘ŞòŞ8ìµóìç1J$2d3564e2-a540-4ba5-b33e-2c93eb7d4efe
-r	java:S106""+Replace this use of System.out by a logger.(‹†ãŠşÿÿÿÿ8ìµóìç1J$37434786-d1a1-455b-af0b-9d362d6faa37
-r	java:S106#"+Replace this use of System.out by a logger.(ŸÑ˜Óşÿÿÿÿ8ìµóìç1J$c015d8e0-0b57-447f-8980-4df899159935
-m	java:S106$"+Replace this use of System.out by a logger.(ÿòÓ˜8ìµóìç1J$ca3ada34-7e68-458a-9724-fa56e5fa3aca
-m	java:S106%"+Replace this use of System.out by a logger.(õŸñƒ8ìµóìç1J$f793d4e7-85e9-4bf9-9a8c-9796cccff50e
-r	java:S106&"+Replace this use of System.out by a logger.(û§…ÿÿÿÿÿ8íµóìç1J$31262178-d1eb-4662-b7f6-57171e95ec25
-m	java:S106'"+Replace this use of System.out by a logger.(çĞòİ8ñµóìç1J$6a573c5b-2f1b-4fe7-8b20-be6c8f717491
-r	java:S106("+Replace this use of System.out by a logger.(—‡èÈÿÿÿÿÿ8ñµóìç1J$6179f887-5a56-4c63-a6b3-da385b64e300
-m	java:S106)"+Replace this use of System.out by a logger.(ûÏÕ8õµóìç1J$b0e917ad-2bf9-41b4-a335-98cb641b4d77
-d	java:S131+""Add a default case to this switch.(ÚÎÁ8íµóìç1J$71d22a35-e9bb-43e7-a059-d71222921c8a
-o
-java:S1197-",Move the array designators [][] to the type.(ñ™º‰8îµóìç1J$f9aa8175-0b3b-48fa-b298-7a1b0b68e4e6
-m	java:S1063"+Replace this use of System.out by a logger.(ä–òá8ïµóìç1J$4e50bcc1-09e2-4560-b1b7-231709e7c18e
-m	java:S1064"+Replace this use of System.out by a logger.(×•œ²8ïµóìç1J$362a516a-9bca-4213-99b7-5fe87c0c3641
-r	java:S1069"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8ïµóìç1J$75013954-df58-4c9d-88d7-f6c56380b5a0
-r	java:S106U"+Replace this use of System.out by a logger.(úÁ¦ğÿÿÿÿÿ8ğµóìç1J$3dc7fb16-250c-4bd9-a632-1fd1917792fe
-r	java:S106V"+Replace this use of System.out by a logger.(ĞË¨®ûÿÿÿÿ8ğµóìç1J$bc7a4e10-39f6-4f0f-8fe9-91b2d6ebab55
-r	java:S106W"+Replace this use of System.out by a logger.(ŸÑ˜Óşÿÿÿÿ8ìµóìç1J$1c6e50c3-25d9-42d8-9cc7-40211d1b769a
-m	java:S106X"+Replace this use of System.out by a logger.(ÿòÓ˜8ğµóìç1J$edafe3db-7a9a-4818-9521-72a06d2fb99e
-m	java:S106Y"+Replace this use of System.out by a logger.(õŸñƒ8ğµóìç1J$e71fcf12-66ba-4e08-808d-74a462ebc41c
-r	java:S106Z"+Replace this use of System.out by a logger.(û§…ÿÿÿÿÿ8ñµóìç1J$11e5f582-9c77-424f-846e-de918bcab710
-m	java:S106["+Replace this use of System.out by a logger.(çĞòİ8ôµóìç1J$87ed88ac-e883-4536-b6bc-bed95586a37b
-r	java:S106\"+Replace this use of System.out by a logger.(—‡èÈÿÿÿÿÿ8õµóìç1J$30df86e4-ee3f-4c53-8f7c-4b7b7db36858
-m	java:S106]"+Replace this use of System.out by a logger.(ûÏÕ8òµóìç1J$8aec8343-7062-4d4f-8697-8bb233c7cd8b
-d	java:S131_""Add a default case to this switch.(Æî‡×8òµóìç1J$7335a8e5-f607-4ad2-b3e2-fb758f6f194f
-o
-java:S1197a",Move the array designators [][] to the type.(ñ™º‰8òµóìç1J$a4337148-5c21-42a3-b350-52ec19ad9738
-~	java:S125f"<This block of commented-out lines of code should be removed.(¶È°¸8âôõáè1J$63ba4d8b-5506-4f97-8b0b-f49eef4c0e6f
-r	java:S106l"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8óµóìç1J$0ff6df33-cf95-4253-8419-e20e09b97361
-n	java:S106†"+Replace this use of System.out by a logger.(·†ËË8óµóìç1J$305eae93-9545-4b4b-9c06-53b179a8bacc
-n	java:S106‡"+Replace this use of System.out by a logger.(Î¡Ï8ôµóìç1J$53d7075a-413d-430b-ada5-48cbd3d6e863
-s	java:S106ˆ"+Replace this use of System.out by a logger.(ŸÑ˜Óşÿÿÿÿ8ğµóìç1J$da55b8eb-59ad-49e7-ac0e-f25291d16326
-n	java:S106‰"+Replace this use of System.out by a logger.(ÿòÓ˜8ôµóìç1J$60bfc04f-7068-427a-aea9-86113fb3d1f7
-n	java:S106Š"+Replace this use of System.out by a logger.(õŸñƒ8ôµóìç1J$068799f3-09c2-4dd4-8583-1ad45d3271a3
-s	java:S106‹"+Replace this use of System.out by a logger.(û§…ÿÿÿÿÿ8ôµóìç1J$91611bd2-dfb4-404a-a9de-b32a18cf580d
-n	java:S106Œ"+Replace this use of System.out by a logger.(çĞòİ8èôõáè1J$c1cb8c00-78a9-41a1-a09f-f09bdbe20777
-s	java:S106"+Replace this use of System.out by a logger.(—‡èÈÿÿÿÿÿ8èôõáè1J$f53b2059-265f-41cb-87ff-23dc499e04a8
-n	java:S106"+Replace this use of System.out by a logger.(ûÏÕ8éôõáè1J$244525bf-cb74-4946-841e-c3c56b4d7086
-’
-java:S1871š"IThis case's code block is the same as the block for the case on line 145.(µ»ïşıÿÿÿÿ8öµóìç1J$7576ba42-8b17-4c7c-9280-23b15d066b8a
-’
-java:S1871—"IThis case's code block is the same as the block for the case on line 145.(‰ÆÄÎşÿÿÿÿ8öµóìç1J$5440318d-90f1-44d5-aada-976b19b8fb6a
-Œ
-java:S1871 "IThis case's code block is the same as the block for the case on line 145.(û¿48öµóìç1J$5a0f51ef-1c1e-4f3b-8ed4-06ee68fd875b
-’
-java:S1871"IThis case's code block is the same as the block for the case on line 145.(ÌÊëÎüÿÿÿÿ8öµóìç1J$a63e25ae-e8ba-44a8-8f05-575bebcfaca4
-’
-java:S1871”"IThis case's code block is the same as the block for the case on line 145.(úâúÿÿÿÿ8öµóìç1J$afe45904-be87-4659-ba64-deba52996b8a
-e	java:S131""Add a default case to this switch.(ÿ§ú8öµóìç1J$f29c87cf-1821-4a04-a5d4-f135480d84c8
-‘	java:S100ª"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÊØÏ8îôõáè1J$eb63de06-3de0-4c8b-ba54-e15477996096
-–
-java:S3776ª"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÙÊØÏ8ïôõáè1J$944c98c6-40bb-483a-bded-53c3cd895613
-s	java:S106Å"+Replace this use of System.out by a logger.(íåÓƒÿÿÿÿÿ8üµóìç1J$c1299f13-a1c5-46db-a01b-5d99f9d2597e
-n	java:S106é"+Replace this use of System.out by a logger.(äìÎÆ8şµóìç1J$e45f2dae-59ec-4956-9246-b22c517474b9
+u
+java:S1192‡"RDefine a constant instead of duplicating this literal "Ingrese la fila: " 3 times.(ËÂŞÄşÿÿÿÿ8é¹ã·ê1
+k
+java:S11920"IDefine a constant instead of duplicating this literal "7. Salir" 3 times.(—‡èÈÿÿÿÿÿ8ê¹ã·ê1
+s
+java:S1192."QDefine a constant instead of duplicating this literal "5. Eliminar dato" 3 times.(û§…ÿÿÿÿÿ8ê¹ã·ê1
+|
+java:S1192+"ZDefine a constant instead of duplicating this literal "2. Sumar filas y columnas" 3 times.(ŸÑ˜Óşÿÿÿÿ8ê¹ã·ê1
+r
+java:S1192$"UDefine a constant instead of duplicating this literal "Ingrese una opcion: " 4 times.(ûÏÕ8ê¹ã·ê1
+x
+java:S1192‰"UDefine a constant instead of duplicating this literal "Ingrese la columna: " 3 times.(ƒµ¨¼ÿÿÿÿÿ8ê¹ã·ê1
+n
+java:S1192/"QDefine a constant instead of duplicating this literal "6. Ingresar dato" 3 times.(çĞòİ8ê¹ã·ê1
+l
+java:S1192,"ODefine a constant instead of duplicating this literal "3. Multiplicar" 3 times.(ÿòÓ˜8ê¹ã·ê1
+?
+java:S1643ç"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8ë¹ã·ê1
+?
+java:S1643‚"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8ë¹ã·ê1
+7
+java:S1220""Move this file to a named package.8ì¹ã·ê1
 j
-java:S1168ë"&Return an empty array instead of null.(¥¹ï8ÿµóìç1J$e3855a57-1c48-40f5-a090-9a40033ad08d
-Š
-java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 133 to 64, Complexity from 31 to 14, Nesting Level from 6 to 2, Number of Variables from 19 to 6.(Çµí‘8€¶óìç1J$17c7ee84-4827-4f94-94ed-8bcbc48f7a3f
+java:S2095ü"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Âõ–8š¿ã·ê1
+j
+java:S2095â"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(´ÓñÊ8š¿ã·ê1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 55 to the 15 allowed.(Çµí‘8Ÿ¿ã·ê1
+[
+java:S1854Å"8Remove this useless assignment to local variable "dato".(…‡ßÆüÿÿÿÿ8¢¿ã·ê1
+^
+java:S1854Ã";Remove this useless assignment to local variable "columna".(Üéÿÿÿÿÿ8¢¿ã·ê1
+V
+java:S1854Á"8Remove this useless assignment to local variable "fila".(Éá»8¢¿ã·ê1
+C	java:S131'""Add a default case to this switch.(Ëë¡Ûúÿÿÿÿ8·¿ã·ê1
+>	java:S1313""Add a default case to this switch.(ÚÎÁ8¸¿ã·ê1
+I
+java:S11975",Move the array designators [][] to the type.(ñ™º‰8¹¿ã·ê1
+>	java:S131g""Add a default case to this switch.(Æî‡×8¼¿ã·ê1
+I
+java:S1197i",Move the array designators [][] to the type.(ñ™º‰8¼¿ã·ê1
+?	java:S131©""Add a default case to this switch.(ÿ§ú8Ä¿ã·ê1
+J
+java:S1197«",Move the array designators [][] to the type.(ñ™º‰8Ä¿ã·ê1
+^	java:S125Æ"<This block of commented-out lines of code should be removed.(õ·şÂûÿÿÿÿ8Æ¿ã·ê1
+k	java:S100×"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÊØÏ8Ç¿ã·ê1
+p
+java:S3776×"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÙÊØÏ8Ç¿ã·ê1
+D
+java:S1168˜"&Return an empty array instead of null.(¥¹ï8Ì¿ã·ê1
+ä
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 177 to 64, Complexity from 34 to 14, Nesting Level from 6 to 2, Number of Variables from 22 to 6.(Çµí‘8Í¿ã·ê1

@@ -8,7 +8,7 @@ public class Nodo {
     private Nodo ligaFila;
     private Nodo ligaColumna;
 
-    public Nodo(int dato, int fila, int columna){
+    public Nodo(int fila, int columna, int dato){
         this.dato = dato;
         this.fila = fila;
         this.columna = columna;
@@ -72,5 +72,7 @@ public class Nodo {
     public void setLigaColumna(Nodo ligaColumna) {
         this.ligaColumna = ligaColumna;
     }
+
+
 }
 
