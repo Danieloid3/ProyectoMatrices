@@ -97,9 +97,9 @@ public class Main {
                         case 5:
                             //Eliminar dato
                             System.out.println("Ingrese la fila que desea eliminar: ");
-                            int fila = scanner.nextInt();
+                            fila = scanner.nextInt();
                             System.out.println("Ingrese la columna que desea eliminar: ");
-                            int columna = scanner.nextInt();
+                            columna = scanner.nextInt();
                             tripletas.set(0, tripletas.get(0).eliminarDato( fila, columna));
                             break;
                         case 6:
@@ -109,7 +109,7 @@ public class Main {
                             System.out.println("Ingrese la columna donde desea ingresar el dato: ");
                             int columnaIngresar = scanner.nextInt();
                             System.out.println("Ingrese el dato: ");
-                            int dato = scanner.nextInt();
+                            dato = scanner.nextInt();
                             tripletas.set(0, tripletas.get(0).ingresarDato(filaIngresar, columnaIngresar, dato));
                             break;
                     }
