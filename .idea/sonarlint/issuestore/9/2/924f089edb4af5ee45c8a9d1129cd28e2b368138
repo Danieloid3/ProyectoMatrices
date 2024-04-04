@@ -1,53 +1,56 @@
 
-‘
-java:S1192("IDefine a constant instead of duplicating this literal "7. Salir" 3 times.(—‡èÈÿÿÿÿÿ8Š÷°€ê1J$1f239d3b-6ecb-4d12-9e8c-66e495b2ca73
-™
-java:S1192&"QDefine a constant instead of duplicating this literal "5. Eliminar dato" 3 times.(û§…ÿÿÿÿÿ8Š÷°€ê1J$265a8626-f70f-4c3f-9bc2-8f249391c590
-˜
-java:S1192"UDefine a constant instead of duplicating this literal "Ingrese una opcion: " 4 times.(ûÏÕ8‹÷°€ê1J$92d8fb84-f983-452d-87b9-912c0c2a42d4
-”
-java:S1192'"QDefine a constant instead of duplicating this literal "6. Ingresar dato" 3 times.(çĞòİ8‹÷°€ê1J$9992a37b-ff3c-4e08-99e0-be36a04cad5c
-¢
-java:S1192#"ZDefine a constant instead of duplicating this literal "2. Sumar filas y columnas" 3 times.(ŸÑ˜Óşÿÿÿÿ8‹÷°€ê1J$a8389561-e33b-471e-a9cf-75ca43547904
-’
-java:S1192$"ODefine a constant instead of duplicating this literal "3. Multiplicar" 3 times.(ÿòÓ˜8‹÷°€ê1J$906420dc-b00c-4989-8673-717b890aff15
-˜
-java:S1192%"UDefine a constant instead of duplicating this literal "4. Suma de tripletas" 3 times.(õŸñƒ8‹÷°€ê1J$ab2c299d-bd4b-44ad-8d70-05f3beda8409
-e
-java:S1643Ö"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8÷°€ê1J$7c726738-2ae1-485f-8167-01d8e76d3739
-e
-java:S1643ñ"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8÷°€ê1J$5486baf1-0838-4f69-9403-969e144d6d1d
-
-java:S2095ë"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Âõ–8É¢Æ€ê1J$0692b600-6ebb-40c3-8006-1f8136e465b7
-
-java:S2095Ñ"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(´ÓñÊ8É¢Æ€ê1J$742bb196-aeb7-45a1-993d-99adfd1e4e5d
-•
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 65 to the 15 allowed.(Çµí‘8Œû°€ê1J$d3c73847-715c-4174-b56c-f0b3a4b2ae05
-}
-java:S1854":Remove this useless assignment to local variable "forma2".(¨¦–”8û°€ê1J$5d6a9380-2828-4737-96ec-eb80ee825b1b
-i	java:S131""Add a default case to this switch.(Ëë¡Ûúÿÿÿÿ8—û°€ê1J$d1e4f1d4-b3c7-4547-8ce2-97b85a7b4d73
-d	java:S131+""Add a default case to this switch.(ÚÎÁ8šû°€ê1J$55b80e2c-040f-406c-94d3-5f9fcc57b47d
-o
-java:S1197-",Move the array designators [][] to the type.(ñ™º‰8›û°€ê1J$6bd3315c-4b8c-46a2-9af9-742bc4320704
-d	java:S131x""Add a default case to this switch.(Æî‡×8ì¢Æ€ê1J$7da2621a-2d72-4359-a472-80f2458455c7
-o
-java:S1197z",Move the array designators [][] to the type.(ñ™º‰8ì¢Æ€ê1J$9573228a-2575-41cd-8c6a-f4836cfcd8e0
-~	java:S125"<This block of commented-out lines of code should be removed.(¶È°¸8î¢Æ€ê1J$21db1ac1-5233-4103-872f-e3dc3344417c
-’
-java:S1871¹"IThis case's code block is the same as the block for the case on line 170.(ÌÊëÎüÿÿÿÿ8ò¢Æ€ê1J$cf4e007f-1c33-4d93-ad23-45a7fca2db9a
-’
-java:S1871­"IThis case's code block is the same as the block for the case on line 170.(úâúÿÿÿÿ8ò¢Æ€ê1J$463d92b4-7ac7-4877-873f-7807eb2d876c
-’
-java:S1871±"IThis case's code block is the same as the block for the case on line 170.(‰ÆÄÎşÿÿÿÿ8ò¢Æ€ê1J$82db29f4-860e-4383-b9f4-d8dc3199f4eb
-’
-java:S1871´"IThis case's code block is the same as the block for the case on line 170.(µ»ïşıÿÿÿÿ8ò¢Æ€ê1J$9a4ad83e-9d1e-41d8-b21c-74ad13c03585
-Œ
-java:S1871¼"IThis case's code block is the same as the block for the case on line 170.(û¿48ò¢Æ€ê1J$1b40faad-90ce-44be-bc15-93c5cbeda6a7
-e	java:S131©""Add a default case to this switch.(ÿ§ú8ó¢Æ€ê1J$7f8d31b1-701f-4216-992a-0f22d9747c29
-‘	java:S100Æ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÊØÏ8ô¢Æ€ê1J$8d72a5af-b8eb-440f-af3a-7b419332d8be
-–
-java:S3776Æ"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÙÊØÏ8ô¢Æ€ê1J$b08894fe-c9a1-46f3-999d-28270b1bc388
+u
+java:S1192¢"RDefine a constant instead of duplicating this literal "Ingrese la fila: " 3 times.(ËÂŞÄşÿÿÿÿ8áü«Ñê1
+k
+java:S11920"IDefine a constant instead of duplicating this literal "7. Salir" 3 times.(—‡èÈÿÿÿÿÿ8ñü«Ñê1
+s
+java:S1192."QDefine a constant instead of duplicating this literal "5. Eliminar dato" 3 times.(û§…ÿÿÿÿÿ8ñü«Ñê1
+|
+java:S1192+"ZDefine a constant instead of duplicating this literal "2. Sumar filas y columnas" 3 times.(ŸÑ˜Óşÿÿÿÿ8ñü«Ñê1
+r
+java:S1192$"UDefine a constant instead of duplicating this literal "Ingrese una opcion: " 4 times.(ûÏÕ8ñü«Ñê1
+x
+java:S1192¤"UDefine a constant instead of duplicating this literal "Ingrese la columna: " 3 times.(ƒµ¨¼ÿÿÿÿÿ8ñü«Ñê1
+h
+java:S11925"KDefine a constant instead of duplicating this literal "--Matriz--" 3 times.(ìÂ¨á8ñü«Ñê1
+n
+java:S1192/"QDefine a constant instead of duplicating this literal "6. Ingresar dato" 3 times.(çĞòİ8ñü«Ñê1
+l
+java:S1192,"ODefine a constant instead of duplicating this literal "3. Multiplicar" 3 times.(ÿòÓ˜8ñü«Ñê1
+?
+java:S1643Œ"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8ñü«Ñê1
+?
+java:S1643§"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8ñü«Ñê1
+7
+java:S1220""Move this file to a named package.8öü«Ñê1
 j
-java:S1168‡"&Return an empty array instead of null.(¥¹ï8ü¢Æ€ê1J$dc4760a1-8765-472c-aad6-5934336d6843
-Š
-java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 156 to 64, Complexity from 34 to 14, Nesting Level from 6 to 2, Number of Variables from 27 to 6.(Çµí‘8±û°€ê1J$2674a4e9-241e-4052-a976-d225e48310c8
+java:S2095‡"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(´ÓñÊ8¹¬Ñê1
+j
+java:S2095¡"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Âõ–8¹¬Ñê1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 81 to the 15 allowed.(Çµí‘8½¬Ñê1
+[
+java:S1854ê"8Remove this useless assignment to local variable "dato".(…‡ßÆüÿÿÿÿ8½¬Ñê1
+^
+java:S1854è";Remove this useless assignment to local variable "columna".(Üéÿÿÿÿÿ8½¬Ñê1
+V
+java:S1854æ"8Remove this useless assignment to local variable "fila".(Éá»8½¬Ñê1
+C	java:S131'""Add a default case to this switch.(Ëë¡Ûúÿÿÿÿ8Í¬Ñê1
+>	java:S1313""Add a default case to this switch.(ÚÎÁ8Í¬Ñê1
+I
+java:S11976",Move the array designators [][] to the type.(ñ™º‰8á¬Ñê1
+?	java:S131""Add a default case to this switch.(Æî‡×8á¬Ñê1
+J
+java:S1197„",Move the array designators [][] to the type.(ñ™º‰8á¬Ñê1
+?	java:S131Ä""Add a default case to this switch.(ÿ§ú8á¬Ñê1
+J
+java:S1197Ç",Move the array designators [][] to the type.(ñ™º‰8á¬Ñê1
+^	java:S125İ"<This block of commented-out lines of code should be removed.(ÕîÎˆşÿÿÿÿ8ñ¬Ñê1
+^	java:S125ë"<This block of commented-out lines of code should be removed.(õ·şÂûÿÿÿÿ8ñ¬Ñê1
+k	java:S100ü"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÊØÏ8ñ¬Ñê1
+p
+java:S3776ü"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÙÊØÏ8ñ¬Ñê1
+D
+java:S1168½"&Return an empty array instead of null.(¥¹ï8ñ¬Ñê1
+ä
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 214 to 64, Complexity from 40 to 14, Nesting Level from 6 to 2, Number of Variables from 27 to 6.(Çµí‘8ñ¬Ñê1

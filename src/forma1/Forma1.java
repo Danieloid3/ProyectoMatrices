@@ -251,48 +251,34 @@ public class Forma1 {
         }
         Suma.Paso3();
         System.out.println("---Suma Forma 1:");
-
-
-
         Suma.Mostrar();
     }
 
-    //insertar dato en forma 1
-    public void insertar(int fila, int columna, int dato){
-        Nodo P = this.punta.getLiga();
-        Nodo Q = P.getLigaFila();
-        //Insertar(fila, columna, dato);
-        Paso3();
 
-
-        Mostrar();
-    }
 
     public void Insertar(int fila, int columna, int dato){
         Nodo P = this.punta.getLiga();
-        Nodo Q = P.getLigaFila();
         Nodo aux = BuscarNodo(fila,columna);
-        Nodo s = null;
 
-        if(aux.getDato()!=0){
+        if(aux != null){
             aux.setDato(dato+aux.getDato());
         }else{
-            while (P.getFila() != fila && Q.getColumna()!= columna){
+            while (P.getFila() != fila){
                 P = P.getLiga();
-                Q = P.getLigaFila();
             }
-
-            while (Q.getColumna() < columna && Q != P){
-                s = Q;
+            Nodo Q = P.getLigaFila();
+            Nodo s = P;
+            while (columna > Q.getColumna() && Q != s){
+                P = Q;
                 Q = Q.getLigaFila();
             }
-            if (Q.getColumna() == columna) {
-
-
-
-            }
-
+            Nodo x = new Nodo (fila, columna, dato);
+            P.setLigaFila(x);
+            x.setLigaFila(Q);
+            this.Paso3();
         }
+
+
         Mostrar();
 
     }

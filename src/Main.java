@@ -50,6 +50,7 @@ public class Main {
                     int opc2 = scanner.nextInt();
                     switch (opc2) {
                         case 1:
+                            System.out.println("--Matriz--");
                             int matriz[][];
                             int datos = 0;
 
@@ -127,6 +128,7 @@ public class Main {
                     int opc3 = scanner.nextInt();
                     switch (opc3) {
                         case 1:
+                            System.out.println("--Matriz--");
                             int matriz[][];
                             matriz = LeerArchivo(h);
                             Forma1 forma1 = new Forma1();
@@ -163,7 +165,7 @@ public class Main {
                             columna = scanner.nextInt();
                             System.out.println("Ingrese el dato a eliminar: ");
                             dato = scanner.nextInt();
-                            formas1.get(1).Eliminar(fila, columna, dato);
+                            formas1.get(0).Eliminar(fila, columna, dato);
                             break;
                         case 6:
                             System.out.println("Ingrese la fila: ");
@@ -193,8 +195,8 @@ public class Main {
                     int opc4 = scanner.nextInt();
                     switch (opc4) {
                         case 1:
+                            System.out.println("--Matriz--");
                             int matriz[][];
-
                             matriz = LeerArchivo(h);
                             Forma2 forma2 = new Forma2();
                             forma2.Construir(matriz);
@@ -205,15 +207,22 @@ public class Main {
                             }
                             break;
                         case 2:
-                            //Sumar filas y columnas
-
+                            formas2.get(0).sumaFilasColumnas();
                             break;
                         case 3:
-                            //Multiplicar
+                            if(formas2.get(0).getPunta().getColumna() != formas2.get(1).getPunta().getFila()) {
+                                System.out.println("No se puede multiplicar");
+                            }else{
+                                formas2.get(0).multiplicar(formas2.get(1));
+                            }
                             break;
                         case 4:
-
-
+                            if (formas2.get(0).getPunta().getFila() == formas2.get(1).getPunta().getFila() && formas2.get(0).getPunta().getColumna() == formas2.get(1).getPunta().getColumna()){
+                                //formas2.get(0).Sumar(formas1.get(1));
+                            }
+                            else {
+                                System.out.println("No se pueden sumar");
+                            }
 
                             break;
                         case 5:
