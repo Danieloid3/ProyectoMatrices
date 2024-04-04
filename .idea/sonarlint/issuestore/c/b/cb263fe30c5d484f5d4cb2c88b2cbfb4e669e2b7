@@ -1,0 +1,25 @@
+
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È›o8Ÿ©†²ê1
+r	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÿà¹ÿÿÿÿÿ8 ©†²ê1
+r	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¿èëÿÿÿÿÿ8 ©†²ê1
+m	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂòÆê8 ©†²ê1
+l	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì°V8 ©†²ê1
+m	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—°Çâ8 ©†²ê1
+r	java:S117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ñ¢ıÿÿÿÿ8 ©†²ê1
+\
+java:S2259@"?A "NullPointerException" could be thrown; "P" is nullable here.(‹Ù½×8Ç©†²ê1
+a
+java:S2583Z"DChange this condition so that it does not always evaluate to "false"(¾Å½¸8¿Ô—²ê1
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È›o8Ë©†²ê1
+H
+java:S1197",Move the array designators [][] to the type.(È›o8Î©†²ê1
+>
+java:S1659"!Declare "ant" on a separate line.(ü€ƒİ8Î©†²ê1
+A
+java:S1659"Declare "j" on a separate line.(¦¢Éëùÿÿÿÿ8Î©†²ê1
+A
+java:S1659""Declare "p" on a separate line.(ˆÿà¹ÿÿÿÿÿ8Ö©†²ê1
+A
+java:S1659#"Declare "i" on a separate line.(ŞÈ›ùúÿÿÿÿ8×©†²ê1
+o	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¯‹ıÿÿÿÿ8Ù©†²ê1
+o	java:S100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú¥œ”üÿÿÿÿ8Ş©†²ê1
