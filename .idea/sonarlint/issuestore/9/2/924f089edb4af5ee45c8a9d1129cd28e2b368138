@@ -1,6 +1,6 @@
 
 u
-java:S1192¢"RDefine a constant instead of duplicating this literal "Ingrese la fila: " 3 times.(ËÂŞÄşÿÿÿÿ8áü«Ñê1
+java:S1192£"RDefine a constant instead of duplicating this literal "Ingrese la fila: " 4 times.(ËÂŞÄşÿÿÿÿ8áü«Ñê1
 k
 java:S11920"IDefine a constant instead of duplicating this literal "7. Salir" 3 times.(—‡èÈÿÿÿÿÿ8ñü«Ñê1
 s
@@ -10,47 +10,37 @@ java:S1192+"ZDefine a constant instead of duplicating this literal "2. Sumar fi
 r
 java:S1192$"UDefine a constant instead of duplicating this literal "Ingrese una opcion: " 4 times.(ûÏÕ8ñü«Ñê1
 x
-java:S1192¤"UDefine a constant instead of duplicating this literal "Ingrese la columna: " 3 times.(ƒµ¨¼ÿÿÿÿÿ8ñü«Ñê1
-h
-java:S11925"KDefine a constant instead of duplicating this literal "--Matriz--" 3 times.(ìÂ¨á8ñü«Ñê1
+java:S1192¥"UDefine a constant instead of duplicating this literal "Ingrese la columna: " 4 times.(ƒµ¨¼ÿÿÿÿÿ8ñü«Ñê1
 n
 java:S1192/"QDefine a constant instead of duplicating this literal "6. Ingresar dato" 3 times.(çĞòİ8ñü«Ñê1
 l
 java:S1192,"ODefine a constant instead of duplicating this literal "3. Multiplicar" 3 times.(ÿòÓ˜8ñü«Ñê1
 ?
-java:S1643Œ"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8ñü«Ñê1
+java:S1643™"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8ñü«Ñê1
 ?
-java:S1643§"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8ñü«Ñê1
+java:S1643´"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8ñü«Ñê1
 7
 java:S1220""Move this file to a named package.8öü«Ñê1
 j
-java:S2095‡"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(´ÓñÊ8¹¬Ñê1
+java:S2095®"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Âõ–8¹¬Ñê1
 j
-java:S2095¡"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Âõ–8¹¬Ñê1
+java:S2095”"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(´ÓñÊ8¹¬Ñê1
 o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 81 to the 15 allowed.(Çµí‘8½¬Ñê1
-[
-java:S1854ê"8Remove this useless assignment to local variable "dato".(…‡ßÆüÿÿÿÿ8½¬Ñê1
-^
-java:S1854è";Remove this useless assignment to local variable "columna".(Üéÿÿÿÿÿ8½¬Ñê1
-V
-java:S1854æ"8Remove this useless assignment to local variable "fila".(Éá»8½¬Ñê1
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 86 to the 15 allowed.(Çµí‘8½¬Ñê1
 C	java:S131'""Add a default case to this switch.(Ëë¡Ûúÿÿÿÿ8Í¬Ñê1
 >	java:S1313""Add a default case to this switch.(ÚÎÁ8Í¬Ñê1
 I
 java:S11976",Move the array designators [][] to the type.(ñ™º‰8á¬Ñê1
-?	java:S131""Add a default case to this switch.(Æî‡×8á¬Ñê1
+?	java:S131‚""Add a default case to this switch.(Æî‡×8á¬Ñê1
 J
-java:S1197„",Move the array designators [][] to the type.(ñ™º‰8á¬Ñê1
-?	java:S131Ä""Add a default case to this switch.(ÿ§ú8á¬Ñê1
+java:S1197…",Move the array designators [][] to the type.(ñ™º‰8á¬Ñê1
+?	java:S131Å""Add a default case to this switch.(ÿ§ú8á¬Ñê1
 J
-java:S1197Ç",Move the array designators [][] to the type.(ñ™º‰8á¬Ñê1
-^	java:S125İ"<This block of commented-out lines of code should be removed.(ÕîÎˆşÿÿÿÿ8ñ¬Ñê1
-^	java:S125ë"<This block of commented-out lines of code should be removed.(õ·şÂûÿÿÿÿ8ñ¬Ñê1
-k	java:S100ü"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÊØÏ8ñ¬Ñê1
+java:S1197È",Move the array designators [][] to the type.(ñ™º‰8á¬Ñê1
+k	java:S100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÊØÏ8ñ¬Ñê1
 p
-java:S3776ü"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÙÊØÏ8ñ¬Ñê1
+java:S3776‰"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÙÊØÏ8ñ¬Ñê1
 D
-java:S1168½"&Return an empty array instead of null.(¥¹ï8ñ¬Ñê1
+java:S1168Ê"&Return an empty array instead of null.(¥¹ï8ñ¬Ñê1
 ä
-java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 214 to 64, Complexity from 40 to 14, Nesting Level from 6 to 2, Number of Variables from 27 to 6.(Çµí‘8ñ¬Ñê1
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 231 to 64, Complexity from 41 to 14, Nesting Level from 6 to 2, Number of Variables from 27 to 6.(Çµí‘8ñ¬Ñê1

@@ -1,5 +1,7 @@
 
-d
-java:S1854M"BRemove this useless assignment to local variable "multiplicacion".(ï¦İøÿÿÿÿ8¾ ½Ìê1
+c
+java:S1854T"ARemove this useless assignment to local variable "multipicacion".(²†ñÿÿÿÿÿ8¤ë¢Öê1
 Z
-java:S1854b"8Remove this useless assignment to local variable "suma".(úˆŞÏøÿÿÿÿ8Î ½Ìê1
+java:S1854i"8Remove this useless assignment to local variable "suma".(úˆŞÏøÿÿÿÿ8¿ë¢Öê1
+u
+java:S3776¥"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(à·‚Ôıÿÿÿÿ8öì¢Öê1

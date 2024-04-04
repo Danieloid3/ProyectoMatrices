@@ -50,7 +50,7 @@ public class Main {
                     int opc2 = scanner.nextInt();
                     switch (opc2) {
                         case 1:
-                            System.out.println("--Matriz--");
+                            System.out.println("---Matriz---");
                             int matriz[][];
                             int datos = 0;
 
@@ -73,6 +73,7 @@ public class Main {
                                 h = 1;
                             }
                             //mostrar array
+                            System.out.println("---Tripleta---");
                             for (int i = 0; i < tripletas.size(); i++) {
                                 for (int j = 0; j < tripletas.get(i).getMatriz().length; j++) {
                                     for (int k = 0; k < tripletas.get(i).getMatriz()[j].length; k++) {
@@ -187,7 +188,7 @@ public class Main {
                     System.out.println("1. Crear Forma 2");
                     System.out.println("2. Sumar filas y columnas");
                     System.out.println("3. Multiplicar");
-                    System.out.println("4. Suma de tripletas");
+                    System.out.println("4. Suma en Forma 2");
                     System.out.println("5. Eliminar dato");
                     System.out.println("6. Ingresar dato");
                     System.out.println("7. Salir");
@@ -199,7 +200,9 @@ public class Main {
                             int matriz[][];
                             matriz = LeerArchivo(h);
                             Forma2 forma2 = new Forma2();
+                            System.out.println("--Forma 2--");
                             forma2.Construir(matriz);
+                            forma2.Mostrar();
                             formas2.add(forma2);
                             h++;
                             if (h > 10){
@@ -218,7 +221,7 @@ public class Main {
                             break;
                         case 4:
                             if (formas2.get(0).getPunta().getFila() == formas2.get(1).getPunta().getFila() && formas2.get(0).getPunta().getColumna() == formas2.get(1).getPunta().getColumna()){
-                                //formas2.get(0).Sumar(formas1.get(1));
+                                formas2.get(0).Sumar(formas2.get(1));
                             }
                             else {
                                 System.out.println("No se pueden sumar");
@@ -232,17 +235,27 @@ public class Main {
                             columna = scanner.nextInt();
                             System.out.println("Ingrese el dato a eliminar: ");
                             dato = scanner.nextInt();
-                            //forma2.Eliminar(fila, columna, dato);
+                            formas2.get(0).Eliminar(fila, columna, dato);
                              break;
                         case 6:
-                            //Ingresar dato
+                            System.out.println("Ingrese la fila: ");
+                            fila = scanner.nextInt();
+                            System.out.println("Ingrese la columna: ");
+                            columna = scanner.nextInt();
+                            System.out.println("Ingrese el dato a insertar: ");
+                            dato = scanner.nextInt();
+                            if(fila > formas2.get(0).getPunta().getFila()){
+                                System.out.println("Está fuera del rango de la matriz");
+                            }else {
+                                formas2.get(0).Insertar(fila, columna, dato);
+                            }
                             break;
                     }
                     break;
 
                     case 4:
                     System.out.println("Saliendo...");
-
+                    break;
 
             }
         } while (opc != 8);

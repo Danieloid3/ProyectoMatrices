@@ -198,6 +198,8 @@ public class Forma1 {
                 aux = P;
             }
 
+        }else{
+            System.out.println("El dato no existe");
         }
             Mostrar();
     }
@@ -226,7 +228,7 @@ public class Forma1 {
             }
         }
 
-        System.out.println("---Multiplicacion Forma 1:");
+        System.out.println("---Multiplicacion Forma 1---");
         multiplicacion.Mostrar();
     }
 
