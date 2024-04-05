@@ -74,14 +74,15 @@ public class Main {
                             }
                             //mostrar array
                             System.out.println("---Tripleta---");
-                            for (int i = 0; i < tripletas.size(); i++) {
+                            tripleta.mostrarTripleta();
+                            /*for (int i = 0; i < tripletas.size(); i++) {
                                 for (int j = 0; j < tripletas.get(i).getMatriz().length; j++) {
                                     for (int k = 0; k < tripletas.get(i).getMatriz()[j].length; k++) {
                                         System.out.print(tripletas.get(i).getMatriz()[j][k] + " ");
                                     }
                                     System.out.println();
                                 }
-                            }
+                            }*/
                             break;
                         case 2:
                             //Sumar filas y columnas
@@ -289,7 +290,7 @@ public class Main {
                     }
 
                 }
-                System.out.println(linea);
+                //System.out.println(linea);
                 i ++;
             }
             matriz = new int[i][j+1];
