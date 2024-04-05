@@ -45,7 +45,8 @@ public class Main {
                     System.out.println("4. Suma de tripletas");
                     System.out.println("5. Eliminar dato");
                     System.out.println("6. Ingresar dato");
-                    System.out.println("7. Salir");
+                    System.out.println("7. Suma de tripleta con forma1 resultado forma2");
+                    System.out.println("8. Salir");
                     System.out.println("Ingrese una opcion: ");
                     int opc2 = scanner.nextInt();
                     switch (opc2) {
@@ -57,13 +58,13 @@ public class Main {
                             matriz = LeerArchivo(h);
                             for (int i = 0; i < matriz.length; i++) {
                                 for (int j = 0; j < matriz[i].length; j++) {
-                                    System.out.print(matriz[i][j]);
-                                    System.out.print(" ");
+                                    //System.out.print(matriz[i][j]);
+                                    //System.out.print(" ");
                                     if (matriz[i][j] != 0) {
                                         datos++;
                                     }
                                 }
-                                System.out.println(" ");
+                                //System.out.println(" ");
                             }
                             Tripleta tripleta = new Tripleta(datos, matriz.length, matriz[0].length);
                             tripleta.crearTripletas(matriz);
@@ -115,6 +116,9 @@ public class Main {
                             dato = scanner.nextInt();
                             tripletas.set(0, tripletas.get(0).ingresarDato(filaIngresar, columnaIngresar, dato));
                             break;
+                        case 7:
+                            //Suma de tripleta con forma1 resultado forma2
+                            tripletas.get(0).sumarTripletaForma2(tripletas.get(0), formas2.get(0));
                     }
                     break;
                 case 2:
@@ -139,6 +143,8 @@ public class Main {
                             h++;
                             if (h > 10){
                                 h = 1;
+
+
                             }
                             break;
                         case 2:
@@ -148,6 +154,8 @@ public class Main {
                             if(formas1.get(0).getPunta().getColumna() != formas1.get(1).getPunta().getFila()) {
                                 System.out.println("No se puede multiplicar");
                             }else{
+                                formas1.get(0).Mostrar();
+                                formas1.get(1).Mostrar();
                                 formas1.get(0).multiplicar(formas1.get(1));
                             }
                             break;
@@ -259,7 +267,7 @@ public class Main {
                     break;
 
             }
-        } while (opc != 8);
+        } while (opc != 9);
         scanner.close();
     }
 
@@ -290,7 +298,8 @@ public class Main {
                     }
 
                 }
-                //System.out.println(linea);
+                //
+                 System.out.println(linea);
                 i ++;
             }
             matriz = new int[i][j+1];

@@ -1,6 +1,11 @@
 package tripleta;
 
 
+import forma1.Forma1;
+import forma2.Forma2;
+import forma1.Nodo;
+
+
 public class Tripleta {
     // Atributos
     private int[][] matriz;
@@ -192,5 +197,29 @@ public class Tripleta {
         }
         nuevaTripleta.mostrarTripleta();
         return nuevaTripleta;
+    }
+    //Sumar tripleta con forma 2 y resultado forma 1
+    public void sumarTripletaForma2(Tripleta tripleta1, Forma2 forma2) {
+        Forma1 forma1Suma = new Forma1();
+        forma1Suma.Paso1(tripleta1.getMatriz(0, 0), tripleta1.getMatriz(0, 1));
+        Nodo x = forma1Suma.getPunta().getLiga();
+        int k = 1;
+        for (int i = 0; i < tripleta1.getMatriz(0, 0); i++) {
+            for (int j = 0; j < tripleta1.getMatriz(0, 1); j++) {
+                int suma = tripleta1.buscarDato(i, j) + forma2.Buscar(i, j);
+                if (suma != 0) {
+                    while (x.getFila() != i) {
+                        x = x.getLiga();
+                    }
+                    forma1Suma.InsertarFinalF(i, j, suma, x);
+                    x = forma1Suma.getPunta().getLiga();
+                    k++;
+                    suma = 0;
+                }
+            }
+        }
+        forma1Suma.Paso3();
+        System.out.println("---Suma de Formas :");
+        forma1Suma.Mostrar();
     }
 }

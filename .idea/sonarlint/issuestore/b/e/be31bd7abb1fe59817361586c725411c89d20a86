@@ -1,7 +1,11 @@
 
 ‰
-java:S1854T"ARemove this useless assignment to local variable "multipicacion".(²†ñÿÿÿÿÿ8£¼úÑê1J$d549c88e-8d08-44b7-a100-e66e785f8da9
+java:S1854Y"ARemove this useless assignment to local variable "multipicacion".(²†ñÿÿÿÿÿ8¹“¶ñê1J$2241e2a8-fbd7-4292-af39-1792badd0aa1
 €
-java:S1854i"8Remove this useless assignment to local variable "suma".(úˆŞÏøÿÿÿÿ8£¼úÑê1J$ac7c0f03-ea9f-4aee-a968-1971079457ac
+java:S1854n"8Remove this useless assignment to local variable "suma".(úˆŞÏøÿÿÿÿ8È“¶ñê1J$32e4dd0c-abe8-47c7-a5eb-097c894847d9
 ›
-java:S3776¥"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(à·‚Ôıÿÿÿÿ8£¼úÑê1J$66eb5d06-e2af-42de-af40-d3c354ec85fd
+java:S3776ª"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(à·‚Ôıÿÿÿÿ8Ø“¶ñê1J$4d0e1914-d6a4-4364-9160-836af5c1b1f9
+
+java:S1854Ù"8Remove this useless assignment to local variable "suma".(úˆŞÏøÿÿÿÿ8Ø“¶ñê1J$435ac8cd-7f72-4370-a2d5-5c90174d8230
+j
+java:S1481Î"&Remove this unused "k" local variable.(‘Œ€ß8Ø“¶ñê1J$ce06d340-53b8-4ebd-8a7a-0c4407b19e2e

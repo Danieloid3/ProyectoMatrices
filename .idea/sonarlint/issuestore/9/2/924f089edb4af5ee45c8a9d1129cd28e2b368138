@@ -1,46 +1,45 @@
 
 ›
-java:S1192¤"RDefine a constant instead of duplicating this literal "Ingrese la fila: " 4 times.(ËÂŞÄşÿÿÿÿ8¥™¥ğê1J$1ae5169e-7065-4f13-8764-f705618ccbd2
-‘
-java:S11920"IDefine a constant instead of duplicating this literal "7. Salir" 3 times.(—‡èÈÿÿÿÿÿ8¥™¥ğê1J$ecdf8fe6-ebd2-44f2-a718-342689be3a3c
+java:S1192¬"RDefine a constant instead of duplicating this literal "Ingrese la fila: " 4 times.(ËÂŞÄşÿÿÿÿ8ƒÛğğê1J$59c345da-e3c4-4e79-b780-fecc47fd7594
 ™
-java:S1192."QDefine a constant instead of duplicating this literal "5. Eliminar dato" 3 times.(û§…ÿÿÿÿÿ8¥™¥ğê1J$0ac1aa72-d224-4a5c-993b-85e9f7df29c6
+java:S1192."QDefine a constant instead of duplicating this literal "5. Eliminar dato" 3 times.(û§…ÿÿÿÿÿ8“Ûğğê1J$3f081bd1-cdee-44f4-8d78-666a7ca55727
 ¢
-java:S1192+"ZDefine a constant instead of duplicating this literal "2. Sumar filas y columnas" 3 times.(ŸÑ˜Óşÿÿÿÿ8¥™¥ğê1J$7b4709b6-a0af-4118-89e3-7a93ca9e320f
+java:S1192+"ZDefine a constant instead of duplicating this literal "2. Sumar filas y columnas" 3 times.(ŸÑ˜Óşÿÿÿÿ8“Ûğğê1J$2fae2d17-5573-4f1b-8a12-524b24bfb01c
 ˜
-java:S1192$"UDefine a constant instead of duplicating this literal "Ingrese una opcion: " 4 times.(ûÏÕ8¥™¥ğê1J$0bd735f3-30a5-4044-abd2-a043af098961
+java:S1192$"UDefine a constant instead of duplicating this literal "Ingrese una opcion: " 4 times.(ûÏÕ8“Ûğğê1J$4cb654a8-f4ec-49a4-915e-e440078aa0d5
 
-java:S1192¦"UDefine a constant instead of duplicating this literal "Ingrese la columna: " 4 times.(ƒµ¨¼ÿÿÿÿÿ8¥™¥ğê1J$24f1148a-413c-430c-8a54-177ebf2628c6
+java:S1192®"UDefine a constant instead of duplicating this literal "Ingrese la columna: " 4 times.(ƒµ¨¼ÿÿÿÿÿ8“Ûğğê1J$11b9f279-2de8-4574-be0c-e1c658cb0e16
 ”
-java:S1192/"QDefine a constant instead of duplicating this literal "6. Ingresar dato" 3 times.(çĞòİ8¥™¥ğê1J$3995fdbb-dbac-48ad-b58c-9a5c03c10d86
+java:S1192/"QDefine a constant instead of duplicating this literal "6. Ingresar dato" 3 times.(çĞòİ8“Ûğğê1J$19c3e762-de1c-42c3-a39e-ba594e10d159
 ’
-java:S1192,"ODefine a constant instead of duplicating this literal "3. Multiplicar" 3 times.(ÿòÓ˜8¥™¥ğê1J$a61c210a-ae84-46e8-82c2-68a376944c02
+java:S1192,"ODefine a constant instead of duplicating this literal "3. Multiplicar" 3 times.(ÿòÓ˜8“Ûğğê1J$764eb3c3-9f6c-47f6-8eb7-edd5c6bc5e96
 e
-java:S1643š"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8¥™¥ğê1J$b30f2c80-cfcf-4508-aa3e-d691e52ec98c
+java:S1643¢"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8“Ûğğê1J$5d78a443-3dd4-43bc-8259-77b6d6bffe0b
 e
-java:S1643µ"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8¥™¥ğê1J$62abecdd-4703-4e3f-963b-f7dced0a036e
+java:S1643¾"Use a StringBuilder instead.(ù‡Ã”ùÿÿÿÿ8“Ûğğê1J$fba4a300-cc38-4443-945a-5842fe8a4ff3
 
-java:S2095¯"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Âõ–8¢ ¥ğê1J$e7f398c9-1ade-4ae4-a9a8-6bf9b1a789d5
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(´ÓñÊ8ÊÿÄñê1J$508c3344-61f5-43f0-b07f-1c53c3ba981c
 
-java:S2095•"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(´ÓñÊ8¢ ¥ğê1J$bf1a9833-00dd-442d-881e-3f1353aad640
+java:S2095¸"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Âõ–8ÉÿÄñê1J$8fc981c9-ad81-42b1-be21-1b5ec28a1be9
 •
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 71 to the 15 allowed.(Çµí‘8¢ ¥ğê1J$309c176a-982d-4bd1-a322-8df211abba8e
-i	java:S131'""Add a default case to this switch.(Ëë¡Ûúÿÿÿÿ8² ¥ğê1J$d5d8f5bb-3b26-48de-aedd-67113ac0d03d
-d	java:S1313""Add a default case to this switch.(ÚÎÁ8² ¥ğê1J$0aa5f40b-85bd-413a-a46c-830498cb3ee9
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 71 to the 15 allowed.(Çµí‘8âäğğê1J$257bac11-e426-41b2-befc-c151d850f64d
+i	java:S131'""Add a default case to this switch.(Ëë¡Ûúÿÿÿÿ8òäğğê1J$83c4e3b6-bbc9-42c2-b319-26cc95a120cd
+d	java:S1314""Add a default case to this switch.(ÚÎÁ8‡€Åñê1J$09c4cf41-7846-4ddf-b091-cfe0b6d411b9
 o
-java:S11976",Move the array designators [][] to the type.(ñ™º‰8Â ¥ğê1J$ab13c5ad-cacb-48d2-885a-dcac0404c581
-ƒ	java:S125N"<This block of commented-out lines of code should be removed.(³Ø¹Íúÿÿÿÿ8Ñ ¥ğê1J$6866f271-1237-4d07-9a9b-f6a8064e6531
-e	java:S131ƒ""Add a default case to this switch.(Æî‡×8á ¥ğê1J$7453ac1c-f411-4633-8b58-75a92789b764
+java:S11977",Move the array designators [][] to the type.(ñ™º‰8Š€Åñê1J$7cec3867-30c7-42e1-b445-5e2cb57e4a3e
+~	java:S125="<This block of commented-out lines of code should be removed.(¶È°¸8æÔİñê1J$0139ab85-bc5c-4141-b1d4-ecd1ef28918d
+ƒ	java:S125C"<This block of commented-out lines of code should be removed.(óàÚåüÿÿÿÿ8›îİñê1J$a46bed23-1ac1-47cd-bd82-ad7daaf3ae5b
+ƒ	java:S125O"<This block of commented-out lines of code should be removed.(³Ø¹Íúÿÿÿÿ8€Åñê1J$3a915dfd-3dc4-41ba-a1dc-5b2e6d4e4b82
+e	java:S131‡""Add a default case to this switch.(Æî‡×8Ÿ€Åñê1J$d7ac8434-56a8-439f-bae4-384dd48360b5
 p
-java:S1197†",Move the array designators [][] to the type.(ñ™º‰8ñ ¥ğê1J$07e74153-422a-4aac-8f33-e200c6badffa
-e	java:S131Æ""Add a default case to this switch.(ÿ§ú8‘¡¥ğê1J$3fa5495b-b5eb-4a84-ad74-10b4f4198d67
+java:S1197Š",Move the array designators [][] to the type.(ñ™º‰8¡€Åñê1J$5e7dc957-fbf7-4107-b527-8545ddd05d12
+e	java:S131Î""Add a default case to this switch.(ÿ§ú8µ€Åñê1J$652fef96-54a5-4c30-8f1e-e293cd03c2ba
 p
-java:S1197É",Move the array designators [][] to the type.(ñ™º‰8‘¡¥ğê1J$85b81c69-57e5-4007-890d-c940f205cb6a
-‘	java:S100Š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÊØÏ8±¡¥ğê1J$3879a248-372b-49ba-833f-f5f0fe74f145
+java:S1197Ñ",Move the array designators [][] to the type.(ñ™º‰8·€Åñê1J$3f1aaf02-3b78-4c80-a158-7cb63e1a2e95
+‘	java:S100’"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÊØÏ8È€Åñê1J$09e7d615-268f-4b69-a6a8-9c64c8172dbb
 –
-java:S3776Š"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÙÊØÏ8ï¡¥ğê1J$8efb8f17-2e10-4411-8dec-c2969e37f2dc
-	java:S125¥"<This block of commented-out lines of code should be removed.(’èÀş8Š†«ğê1J$725fb3c7-fcdf-4e7c-b753-7064f721e185
+java:S3776’"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÙÊØÏ8É€Åñê1J$cec263b0-1b79-4699-a8e8-78b36bbba6d7
 j
-java:S1168Ë"&Return an empty array instead of null.(¥¹ï8¢¥ğê1J$3d266c34-6a04-4e33-9f68-9a8300f415fd
+java:S1168Ô"&Return an empty array instead of null.(¥¹ï8İ€Åñê1J$0a081e5c-c964-46e4-9fba-7af953b29f59
 Š
-java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 224 to 64, Complexity from 38 to 14, Nesting Level from 6 to 2, Number of Variables from 24 to 6.(Çµí‘8¢¥ğê1J$8e7757f1-3b59-4dcd-bf08-c15842504743
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 226 to 64, Complexity from 39 to 14, Nesting Level from 6 to 2, Number of Variables from 24 to 6.(Çµí‘8°åğğê1J$273a4a73-3bb4-4860-bc67-5be5e84a4062
