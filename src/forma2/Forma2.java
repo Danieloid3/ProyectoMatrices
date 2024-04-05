@@ -25,8 +25,7 @@ public class Forma2 {
                 }
             }
         }
-        punta.setFila(Mat.length);
-        punta.setColumna(Mat[0].length);
+
         construirColumnas();
     }
     public void InsertarFinal(int filas, int columnas, int dato)
@@ -49,16 +48,16 @@ public class Forma2 {
 
 
     public void construirColumnas(){
-        Nodo A = punta.getLigaFila();
-        Nodo P = this.punta;
+        Nodo P = punta.getLigaFila();
+        Nodo Q = this.punta;
         for(int i = 0; i < punta.getColumna(); i++){
             P = punta.getLigaFila();
             while(P!=punta){
                 if(P.getColumna()==i){
-                    A.setLigaColumna(P);
-                    A=P;
+                    Q.setLigaColumna(P);
+                    Q=P;
                 }
-                P=P.getLigaFila();
+                P = P.getLigaFila();
             }
         }
     }
@@ -178,18 +177,21 @@ public class Forma2 {
         Nodo x = new Nodo(fila, columna, dato);
         Nodo aux = BuscarNodo(fila, columna);
 
+
         if(aux != null){
             aux.setDato(aux.getDato()+dato);
         }else{
             while (P.getFila() < fila){
+                Q = P;
                 P = P.getLigaFila();
             }
-            while  (P.getColumna() < columna && P.getFila()== fila){
+            while  (P.getColumna() < columna && P.getFila() == fila){
                 Q = P;
                 P = P.getLigaFila();
             }
             Q.setLigaFila(x);
             x.setLigaFila(P);
+            this.construirColumnas();
         }
 
         Mostrar();
